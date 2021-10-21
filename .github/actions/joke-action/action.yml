@@ -1,0 +1,12 @@
+name: "external API action"
+
+description: "use an external api to display jokes"
+
+outputs:
+  joke-output:
+    description: The resulting joke from the blabla API
+
+runs:
+  using: "node12"
+  main: "main.js"
+
